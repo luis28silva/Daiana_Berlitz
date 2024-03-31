@@ -17,20 +17,71 @@ body, html{
 
 body{
     background-color: black;
+    
 }
 
-main{
-    background-color: blue;
-    width: 100vw;
-    margin: auto;
-    padding: 10px;
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
-h1{
+.logo{
+    width: 300px;
+}
+
+.menu{
+    display:none;
+    margin-top: 20px;
+}
+
+.menu >ul{
+    list-style-type: none;
+    
+}
+
+span#burguer{
+    color: red;
+    font-size: 180%;
+    padding-top: 20px;
+    cursor: pointer;
+}
+
+span#burguer:hover{
+    color: rgb(94, 255, 0);
+    font-size: 180%;
+    padding-top: 20px;
+}
+
+.menu > ul >li >a{
+    display:block;
+    text-decoration: none;
     text-align: center;
-    font-size: 1.8em;
+    color: black;
     font-family: 'Yantramanav';
-    color: wheat;
-    font-weight: normal;
+    font-size: 1.1em;
+    border-top: 1px solid black;
 }
 
+.menu > ul > li > a:hover{
+    background-color: orange;
+}
+
+.inicio{
+    background-color: white;
+}
+
+.corpo{
+    background-color: red;
+    width: 90vw;
+    margin: auto;
+}
+
+.inicio > img {
+    width: 600px;
+    height: auto;
+    margin: 0 auto;
+    display: block; /* Para garantir a centralização */
+}
