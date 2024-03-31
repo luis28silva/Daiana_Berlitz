@@ -1,8 +1,50 @@
 @charset "UTF-8";
-/*versão para para computadores*/
+/* Versão para computadores */
 
 @media screen and (min-width: 769px) {
-    body{
-        background-color: rgb(55, 0, 255);
+
+    span#burger {
+        display: none;
     }
-}
+
+        
+    header {
+        display: flex;
+        justify-content: space-between; /* Para distribuir os elementos na linha */
+        align-items: center; /* Para centralizar verticalmente os elementos */
+    }
+
+    .logo {
+        width: 300px; /* Largura do logo */
+    }
+
+    /* Estilo para o menu */
+    .nave {
+        display: flex;
+        align-items: center;
+    }
+
+   .nave ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+    }
+
+    .nave ul li {
+        margin-left: 10px;
+    }
+
+    .nave ul li a {
+        text-decoration: none;
+        color: rgb(0, 38, 255);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.1em;
+        border: none;
+    }
+
+    }
+
+   
+
+    
+

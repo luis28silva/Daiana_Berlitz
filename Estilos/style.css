@@ -20,7 +20,7 @@ body{
     
 }
 
-header{
+header {
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -29,59 +29,76 @@ header{
 }
 
 .logo{
+    padding-bottom: 20px;
     width: 300px;
 }
 
-.menu{
+.nave{
     display:none;
     margin-top: 20px;
 }
 
-.menu >ul{
+.nave >ul{
     list-style-type: none;
     
 }
 
-span#burguer{
-    color: red;
+span#burger{
+    color:  #82ffb2;
     font-size: 180%;
     padding-top: 20px;
     cursor: pointer;
 }
 
-span#burguer:hover{
-    color: rgb(94, 255, 0);
+span#burger:hover{
+    color: #2c6bff;
     font-size: 180%;
     padding-top: 20px;
 }
 
-.menu > ul >li >a{
+.nave > ul >li >a{
     display:block;
     text-decoration: none;
     text-align: center;
     color: black;
     font-family: 'Yantramanav';
     font-size: 1.1em;
-    border-top: 1px solid black;
+    border-top: 1px solid rgb(87, 87, 87);
 }
 
-.menu > ul > li > a:hover{
-    background-color: orange;
+.nave > ul > li > a:hover{
+    background-color:  #82ffb2
 }
 
-.inicio{
-    background-color: white;
-}
-
-.corpo{
-    background-color: red;
-    width: 90vw;
+.inicio {
+    background-color: rgb(255, 255, 255);
+    text-align: center; /* Para centralizar a imagem */
     margin: auto;
 }
 
-.inicio > img {
-    width: 600px;
-    height: auto;
-    margin: 0 auto;
+.inicio img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse a largura da seção */
+    height: auto; /* Permite que a altura seja ajustada automaticamente */
+    margin: 0 auto; /* Centraliza horizontalmente a imagem */
     display: block; /* Para garantir a centralização */
+}
+
+.arti-1{
+    background-color: #82ffb2;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.arti-1 > h2{
+    font-family: 'Yantramanav', Arial, Helvetica, sans-serif;
+    font-weight: normal;
+
+    font-size: 2em;
+    color: black;
+}
+
+.arti-1 > p{
+    color: rgb(41, 41, 41);
+    font-family: 'Wix Madefor Display', Arial, Helvetica, sans-serif;
+    padding-top: 10px;
 }
