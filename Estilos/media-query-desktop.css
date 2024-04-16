@@ -108,7 +108,7 @@
     }
 
     .foto {
-        background-color: white;
+        background-color: rgb(255, 55, 55);
     }
 
     .artigo1{
@@ -117,13 +117,22 @@
         margin-right: 80px;
         
     }
+
+    .daiana{
+        display: block;
+        position: relative;
+        margin-top: -15%;
+        
+    }
     .daiana > img{
+        position: relative;
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 400px;
         height: auto;
         align-items: center;
+        top: -30%;
     }
 
 }
