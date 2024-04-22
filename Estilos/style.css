@@ -127,12 +127,12 @@ menu > ul > li > a{
 
 .artigo1 > h2{
     text-align: center;
-    font-size: 1.1em;
+    font-size: 0.8em;
     font-family: 'Yantramanav', Arial, Helvetica, sans-serif;
     font-weight: normal;
     line-height: 1.3;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .daiana{
@@ -150,5 +150,9 @@ menu > ul > li > a{
     height: auto;
     align-items: center;
     top: -30%;
+}
+
+.secoes{
+    display: flex;
 }
 
