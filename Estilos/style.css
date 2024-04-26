@@ -61,7 +61,16 @@ menu > ul > li > a{
     padding: 2px 0; /* Adicione esta linha para criar um espaço entre os itens do menu */  
     font-family: 'Yantramanav', Arial, Helvetica, sans-serif;
     color: #784b2c;
+    position: relative; /* Adiciona posição relativa para o pseudo-elemento ::after */
+    transition: color 0.4s; /* Adiciona uma transição suave na mudança de cor */
 }
+
+
+
+menu > ul > li > a:hover {
+    color: #bdf0ff; /* Muda a cor do texto quando o link é hover */
+}
+
 
 .mobile {
     display: flex;
@@ -105,13 +114,13 @@ menu > ul > li > a{
 .artigo1{
     background-color:#f4f5f0;
     padding-top: 20px;
-    padding-bottom: 110px;
+    padding-bottom: 80px;
  
 }
 
 .artigo1 >p{
     text-align: center;
-    font-size: 1em;
+    font-size: 1.1em;
     font-family: 'Prata', Times, serif;
     font-style: italic;
     padding-bottom: 10px;
@@ -119,15 +128,15 @@ menu > ul > li > a{
 
 .artigo1 > h1{
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     font-family: 'Prata', Times, serif; 
     font-weight: normal;
     padding-bottom: 10px;
 }
 
-.artigo1 > h2{
+.artigo1 >.descricao{
     text-align: center;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-family: 'Yantramanav', Arial, Helvetica, sans-serif;
     font-weight: normal;
     line-height: 1.3;
@@ -152,7 +161,49 @@ menu > ul > li > a{
     top: -30%;
 }
 
-.secoes{
-    display: flex;
-}
+   .secoes{
+        display: block;
+        margin: 80px;
+    }
 
+    .secoes > div{
+        flex: 1;
+        padding-top: 40px;
+        padding-left: 60px;
+        padding-right: 60px;
+        text-align: center;
+    }
+
+    .div1 div12{
+        background-color: #9cffa6;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .div1 > h1{
+        font-family:  'Prata', Times, serif; 
+        font-size: 3em;
+        font-weight: normal;
+        color: #1c1018;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .div1 > p {
+        font-family:'Yantramanav', Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        font-weight: normal;
+    }
+
+    .div2{
+        background-color:#ded6d6;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .div3{
+        background-color: #bdf0ff;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
