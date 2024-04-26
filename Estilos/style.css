@@ -163,7 +163,7 @@ menu > ul > li > a:hover {
 
    .secoes{
         display: block;
-        margin: 80px;
+        margin: 0px;
     }
 
     .secoes > div{
@@ -174,7 +174,7 @@ menu > ul > li > a:hover {
         text-align: center;
     }
 
-    .div1 div12{
+    .div1{
         background-color: #9cffa6;
         padding-top: 150px;
         padding-bottom: 150px;
