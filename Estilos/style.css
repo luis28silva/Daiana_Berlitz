@@ -6,6 +6,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&family=Quicksand:wght@300..700&display=swap');
+
 
 
 *{
@@ -29,15 +33,16 @@ header {
 
 .logo{
     padding-bottom: 20px;
-    width: 300px;
+    width: 230px;
 }
 
 #burguer{
-    color: #2c6bff;    
+    color: #0a4d92;    
+     
 }
 
 #burguer:hover {
-    color: #784b2c;
+    color: #1c1018;
     cursor: pointer;
 }
 
@@ -56,11 +61,12 @@ menu > ul > li {
 
 menu > ul > li > a{
     text-decoration: none;
-    border-top: 1px solid #2c6bff;  
+    border-top: 1px solid #0a4d92;   
     display: block; 
-    padding: 2px 0; /* Adicione esta linha para criar um espaço entre os itens do menu */  
+    padding-top: 5px; /* Adicione esta linha para criar um espaço entre os itens do menu */  
+    padding-bottom: 1px;
     font-family: 'Yantramanav', Arial, Helvetica, sans-serif;
-    color: #784b2c;
+    color: #1c1018;
     position: relative; /* Adiciona posição relativa para o pseudo-elemento ::after */
     transition: color 0.4s; /* Adiciona uma transição suave na mudança de cor */
 }
@@ -88,23 +94,24 @@ menu > ul > li > a:hover {
 
 .texto1{
     background-color: #bdf0ff;
-    padding-top: 110px;
-    padding-bottom: 110px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     padding-left: 50px;
     padding-right: 50px;
     text-align: center;
 }
 
 .texto1 h1{
-    font-size: 2.2em;
-    font-family: 'Prata', Arial, Helvetica, sans-serif;
+    font-size: 2.1em;
+    font-family: "BIZ UDPMincho",'Courier New', Courier, monospace;
+    line-height: 1.3;
     font-weight: normal;
     color: #1c1018;
 }
 
 .texto1 > p{
     padding-top: 50px;
-    font-family: 'Yantramanav', Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
     font-size: 0.9em;
     font-weight: normal;
     color: #1c1018;
@@ -120,26 +127,27 @@ menu > ul > li > a:hover {
 
 .artigo1 >p{
     text-align: center;
-    font-size: 1.1em;
-    font-family: 'Prata', Times, serif;
+    font-size: 1em;
+    font-family: "BIZ UDPMincho",'Courier New', Courier, monospace;
     font-style: italic;
     padding-bottom: 10px;
 }
 
 .artigo1 > h1{
     text-align: center;
-    font-size: 3em;
-    font-family: 'Prata', Times, serif; 
+    font-size: 2.2em;
+    font-family: "BIZ UDPMincho",'Courier New', Courier, monospace;
     font-weight: normal;
     padding-bottom: 10px;
 }
 
 .artigo1 >.descricao{
     text-align: center;
-    font-size: 0.9em;
-    font-family: 'Yantramanav', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
     font-weight: normal;
-    line-height: 1.3;
+    font-style: normal;
+    line-height: 1.4;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -161,28 +169,52 @@ menu > ul > li > a:hover {
     top: -30%;
 }
 
-   .secoes{
-        display: block;
-        margin: 0px;
+.secoes{
+    display: block;
+    margin: 0px;
     }
 
-    .secoes > div{
-        flex: 1;
-        padding-top: 40px;
-        padding-left: 60px;
-        padding-right: 60px;
-        text-align: center;
+.secoes > div{
+    flex: 1;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
     }
 
-    .div1{
-        background-color: #9cffa6;
-        padding-top: 150px;
-        padding-bottom: 150px;
+.div1{
+    background-color: #9cffa6;
+    padding-top: 100px;
+    padding-bottom: 70px;
     }
 
-    .div1 > h1{
-        font-family:  'Prata', Times, serif; 
-        font-size: 3em;
+.div1 > h1{
+    font-family:  "BIZ UDPMincho",'Courier New', Courier, monospace;
+    font-size: 2em;
+    font-weight: normal;
+    color: #1c1018;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+    .div1 > p {
+        font-family:'Quicksand', Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        font-weight: normal;
+        line-height: 1.5;
+
+    }
+
+    .div2{
+        background-color:#ded6d6;
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+
+    .div2 > h1{
+        font-family:  "BIZ UDPMincho",'Courier New', Courier, monospace;
+        font-size: 2em;
         font-weight: normal;
         color: #1c1018;
         padding-bottom: 30px;
@@ -190,20 +222,84 @@ menu > ul > li > a:hover {
         padding-right: 20px;
     }
 
-    .div1 > p {
-        font-family:'Yantramanav', Arial, Helvetica, sans-serif;
-        font-size: 1.2em;
+    .div2 > p {
+        font-family:'Quicksand', Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
         font-weight: normal;
+        line-height: 1.5;
     }
 
-    .div2{
-        background-color:#ded6d6;
-        padding-top: 150px;
-        padding-bottom: 150px;
-    }
 
     .div3{
         background-color: #bdf0ff;
-        padding-top: 150px;
-        padding-bottom: 150px;
+        padding-top: 100px;
+        padding-bottom: 70px;
     }
+    .div3 > h1{
+        font-family:  "BIZ UDPMincho",'Courier New', Courier, monospace;
+        font-size: 2em;
+        font-weight: normal;
+        color: #1c1018;
+        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .div3 > p {
+        font-family:'Quicksand', Arial, Helvetica, sans-serif;
+        font-size: 0.9em;
+        font-weight: normal;
+        line-height: 1.5;
+    }
+
+    .artigos{
+        background-color: #ded6d6;
+        padding: 50px; 
+    }
+
+    .artigos > h1{
+        text-align: center;
+        font-family: "BIZ UDPMincho",'Courier New', Courier, monospace;
+        color: #1c1018;
+        font-style: italic;
+        font-weight: normal;
+        padding-bottom: 10px;
+    }
+
+  
+    .imagem_art1 {
+        margin: 0 auto; /* Centraliza a div horizontalmente */
+        background-color: white; /* Adiciona uma margem branca em volta da imagem */
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-bottom: 50px;
+        display: inline-block; /* Permite que a div se ajuste ao conteúdo (a imagem) */
+    }
+
+
+    .imagem_art1 img {
+        max-width: 100%; /* Reduz a largura da imagem para caber dentro da div .imagem_art1 */
+        height: auto; /* Mantém a proporção da imagem */
+        display: block; /* Garante que a imagem não afete outros elementos */
+    }
+    .imagem_art1 > h2 {
+        color: #1c1018;
+        font-family: "BIZ UDPMincho",'Courier New', Courier, monospace;
+        font-size: 1.2em;
+        font-weight: normal;
+        font-style: italic;
+        padding-top: 20px;
+    }
+
+    .imagem_art1 > p {
+        color: #1c1018;
+        font-family: "BIZ UDPMincho",'Courier New', Courier, monospace;
+        font-size: 0.8em;
+        font-style: italic;
+        padding-top: 20px;
+        line-height: 18px;
+    }
+
+  
+  
