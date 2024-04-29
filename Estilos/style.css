@@ -65,7 +65,7 @@ menu > ul > li > a{
     display: block; 
     padding-top: 5px; /* Adicione esta linha para criar um espaço entre os itens do menu */  
     padding-bottom: 1px;
-    font-family: 'Yantramanav', Arial, Helvetica, sans-serif;
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
     color: #1c1018;
     position: relative; /* Adiciona posição relativa para o pseudo-elemento ::after */
     transition: color 0.4s; /* Adiciona uma transição suave na mudança de cor */
@@ -282,24 +282,72 @@ menu > ul > li > a:hover {
         max-width: 100%; /* Reduz a largura da imagem para caber dentro da div .imagem_art1 */
         height: auto; /* Mantém a proporção da imagem */
         display: block; /* Garante que a imagem não afete outros elementos */
+        padding-bottom: 5px;
     }
     .imagem_art1 > h2 {
         color: #1c1018;
         font-family: "BIZ UDPMincho",'Courier New', Courier, monospace;
-        font-size: 1.2em;
+        font-size: 1.5em;
         font-weight: normal;
         font-style: italic;
         padding-top: 20px;
+        border-top: 1px solid #1c1018;
+        margin-top: 10px;
     }
 
-    .imagem_art1 > p {
-        color: #1c1018;
-        font-family: "BIZ UDPMincho",'Courier New', Courier, monospace;
-        font-size: 0.8em;
-        font-style: italic;
-        padding-top: 20px;
-        line-height: 18px;
+   footer{
+    background-color: white;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+   }
+
+   .rodape {
+    display: flex;
+    align-items: center;
+}
+
+    .icones {
+        display: inline-block;
+        
+}
+
+    .icones > img{
+        width: 40px;
+        height: auto;
+        padding-bottom: 10px;
+        
     }
+
+    .text_rodape  {
+    margin-top: 5px;
+}
+
+.text_rodape >h1{
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    color: #1c1018;
+    font-weight: normal;
+    padding-bottom: 5px;
+}
+
+.text_rodape >h2{
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #1c1018;
+    font-weight: normal;
+    padding-bottom: 8px;
+}
+
+.text_rodape >p{
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: #1c1018;
+}
+
+  
+  
+    
 
   
   
