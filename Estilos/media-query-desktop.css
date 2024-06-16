@@ -116,7 +116,7 @@
     .imagem1 {
         flex: 1; /* Define a imagem como flexível para ocupar o espaço restante */
         margin-right: 0px; /* Espaçamento entre a imagem e o texto */
-        background-image: url(../imagens/fotos/foto_1.png);
+        background-image: url(../imagens/fotos/foto_1.jpg);
         background-position: left top;
         background-size: cover;
         padding-top:  250px;
