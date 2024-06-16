@@ -42,7 +42,7 @@ header {
 }
 
 #burguer:hover {
-    color: #1c1018;
+    color: #0a4d92;
     cursor: pointer;
 }
 
@@ -235,8 +235,8 @@ menu > ul > li > a:hover {
 
     .div3{
         background-color: #bdf0ff;
-        padding-top: 100px;
-        padding-bottom: 70px;
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
     .div3 > h1{
         font-family:  "BIZ UDPMincho",'Courier New', Courier, monospace;
@@ -244,13 +244,13 @@ menu > ul > li > a:hover {
         font-weight: normal;
         color: #1c1018;
         padding-bottom: 30px;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
 
     .div3 > p {
         font-family:'Quicksand', Arial, Helvetica, sans-serif;
-        font-size: 0.9em;
+        font-size: 1.2em;
         font-weight: normal;
         line-height: 1.5;
     }
@@ -290,7 +290,7 @@ menu > ul > li > a:hover {
     .imagem_art1 > h2 {
         color: #1c1018;
         font-family: "BIZ UDPMincho",'Courier New', Courier, monospace;
-        font-size: 1.5em;
+        font-size: 0.8em;
         font-weight: normal;
         font-style: italic;
         padding-top: 20px;
@@ -336,15 +336,15 @@ menu > ul > li > a:hover {
 
 .text_rodape >h2{
     font-family: 'Quicksand', Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: .8em;
     color: #1c1018;
     font-weight: normal;
-    padding-bottom: 8px;
+    padding-bottom: 10px;
 }
 
 .text_rodape >p{
     font-family: 'Quicksand', Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: 0.9em;
     color: #1c1018;
 }
 
