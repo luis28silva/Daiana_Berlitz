@@ -62,7 +62,7 @@
     }   
 
     menu > ul > li > a {
-        font-family: 'Yantramanav';
+        font-family: 'Quicksand', Arial, Helvetica, sans-serif;
         font-size: 1.2em;
         color: #1c1018;  
         text-decoration: none;
@@ -72,7 +72,7 @@
     }
 
     menu > ul > li > a:hover{
-        color: #bdf0ff;
+        color: #3b96ff;
     }
 
 
@@ -87,7 +87,7 @@
         bottom: -1px; 
         width: 100%; 
         height: 4px; 
-        background-color: #bdf0ff;
+        background-color: #3b96ff;
         animation: underlineAnim 0.8s forwards; 
         transition: color 0.4s;
   }
@@ -126,17 +126,17 @@
 
     .texto1 {
         flex: 1; /* Define o texto como flexível para ocupar o espaço restante */
-        background-color:#3b96ff;;
-        padding-top: 250px;
-        padding-bottom: 250px;
+        background-color:#3b96ff;
+        padding-top: 220px;
+        padding-bottom: 220px;
         text-align: center;
         order: 1;
     }
 
     .texto1 > h1 {
-        font-family: 'Prata', Times, serif;
+        font-family: "BIZ UDPMincho",'Courier New', Courier, monospace;
         font-weight: normal;
-        color: #1c1018;
+        color: white;
         font-size: 3em;
         margin: 60px;
         padding-left: 60px;
@@ -147,14 +147,14 @@
         font-size: 1em;
         font-weight: normal;
         font-family: 'Yantramanav', Arial, Helvetica, sans-serif;
-        color:  #1c1018;
+        color:  white;
     }
 
 
 
 
     .artigo1{
-        background-color:#f4f5f0;
+        background-color:#e0e0de;
         padding-top: 60px;
         padding-bottom: 300px;
         margin-left: 80px;
@@ -173,14 +173,14 @@
     .artigo1 > h1{
         text-align: center;
         font-size: 4em;
-        font-family: 'Quicksand', 'Times New Roman', Times, serif
+        font-family: "BIZ UDPMincho",'Courier New', Courier, monospace;
         
     }
 
     .artigo1 > .descricao{
         text-align: center;
-        font-size: 1.1em;
-        font-family: 'Yantramanav', Arial, Helvetica, sans-serif;
+        font-size: 1.2em;
+        font-family: 'Quicksand', Arial, Helvetica, sans-serif;
         font-weight: normal;
         line-height: 1.6;
         padding-left: 520px;
@@ -191,7 +191,7 @@
     .daiana{
         display: block;
         position: relative;
-        margin-top: -15%;
+        margin-top: -18%;
         
     }
     .daiana > img{
@@ -219,37 +219,102 @@
     }
 
     .div1{
-        background-color: #9cffa6;
+        background-color: #bdffc4;
         padding-top: 150px;
         padding-bottom: 150px;
     }
 
     .div1 > h1{
-        font-family:  'Prata', Times, serif; 
-        font-size: 3em;
+        font-family:  "BIZ UDPMincho",'Courier New', Courier, monospace;
+        font-size: 2.5em;
         font-weight: normal;
         color: #1c1018;
-        padding-bottom: 30px;
+        padding-top: 50px;
+        padding-bottom:20px;
         padding-left: 20px;
         padding-right: 20px;
     }
 
     .div1 > p {
-        font-family:'Yantramanav', Arial, Helvetica, sans-serif;
-        font-size: 1.2em;
+        font-family:'Quicksand', Arial, Helvetica, sans-serif;
+        font-size: 1em;
         font-weight: normal;
     }
 
     .div2{
-        background-color:#ded6d6;
+        background-color:#e0e0de;
         padding-top: 150px;
         padding-bottom: 150px;
     }
 
+    .div2 > h1{
+        font-family:  "BIZ UDPMincho",'Courier New', Courier, monospace;
+        font-size: 2.5em;
+        font-weight: normal;
+        color: #1c1018;
+        padding-top: 50px;
+        padding-bottom:20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .div2 > p {
+        font-family:'Quicksand', Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        font-weight: normal;
+    }
+
+
     .div3{
         background-color: #bdf0ff;
-        padding-top: 150px;
+        padding-top: 220px;
         padding-bottom: 150px;
     }
+
+    .div3 > h1{
+        font-family:  "BIZ UDPMincho",'Courier New', Courier, monospace;
+        font-size: 2.5em;
+        font-weight: normal;
+        color: #1c1018;
+        padding-top: 50px;
+        padding-bottom:20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .div3 > p {
+        font-family:'Quicksand', Arial, Helvetica, sans-serif;
+        font-size: 1em;
+        font-weight: normal;
+    }
+
+    .artigos {
+        background-color: #e0e0de; /* Cor de fundo da seção */
+        text-align: center; /* Centraliza o texto */
+        padding: 20px; /* Espaçamento interno */
+        display: flex; /* Usa flexbox para layout */
+        justify-content: space-around; /* Espaça os itens uniformemente */
+        flex-wrap: wrap; /* Permite quebra de linha para itens */
+    }
+    
+    .artigo {
+        text-align: center; /* Centraliza o texto no bloco */
+        flex: 1 1 30%; /* Flex-grow, flex-shrink, largura base */
+        margin: 10px; /* Espaçamento entre os blocos */
+        background-color: transparent; /* Fundo transparente */
+    }
+    
+    .artigo img {
+        max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do contêiner */
+        height: auto; /* Mantém a proporção da imagem */
+    }
+    
+    .artigo h2 {
+        margin-top: 10px; /* Espaçamento acima do texto */
+        font-size: 16px; /* Tamanho da fonte */
+        color: #333; /* Cor do texto */
+    }
+
+
 
 
