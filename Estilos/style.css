@@ -61,7 +61,7 @@ menu > ul > li {
 
 menu > ul > li > a{
     text-decoration: none;
-    border-top: 1px solid #0a4d92;   
+    border-top: 1px solid #3b96ff;;   
     display: block; 
     padding-top: 5px; /* Adicione esta linha para criar um espaço entre os itens do menu */  
     padding-bottom: 1px;
