@@ -33,7 +33,7 @@ header {
 
 .logo{
     padding-bottom: 20px;
-    width: 260px;
+    width: 300px;
 }
 
 #burguer{
@@ -169,7 +169,7 @@ menu > ul > li > a:hover {
     align-items: center;
     top: -30%;
     margin-bottom: 40px;
-    border: 10px solid white;
+    
 }
 
 .secoes{
