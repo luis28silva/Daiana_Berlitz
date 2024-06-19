@@ -310,9 +310,60 @@
     }
     
     .artigo h2 {
-        margin-top: 10px; /* Espaçamento acima do texto */
+        margin-top: 100px; /* Espaçamento acima do texto */
         font-size: 16px; /* Tamanho da fonte */
-        color: #333; /* Cor do texto */
+        color: #ff0000; /* Cor do texto */
+    }
+
+
+    .artigo2{
+        background-color:#e0e0de;
+        padding-top: 60px;
+        padding-bottom: 350px;
+        margin-left: 80px;
+        margin-bottom: 120px;
+        margin-right: 80px;
+        
+    }
+
+
+   .artigo2 {
+        display: flex;
+        justify-content: center; /* Centraliza os itens */
+        flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha se não couberem */
+        padding: 20px;
+    }
+    
+    .foto {
+        margin:50px; /* Margem menor para reduzir o espaço entre os itens */
+        text-align: center;
+        width: 350px; /* Largura fixa */
+        height: 350px; /* Altura fixa */
+        background-size: cover; /* Cobre todo o espaço do div */
+        background-position: center; /* Centraliza a imagem no div */
+    }
+
+    .artigo2.foto > h2{
+        color: #1c1018;
+        font-family: "BIZ UDPMincho",'Courier New', Courier, monospace;
+        font-size: 0.8em;
+        font-weight: normal;
+        font-style: italic;
+        padding-top: 20px;
+        border-top: 1px solid #1c1018;
+        margin-top: 10px;
+    }
+    
+    .foto:nth-child(1) {
+        background-image: url(../imagens/fotos/imagem_01.jpg);
+    }
+    
+    .foto:nth-child(2) {
+        background-image: url(../imagens/fotos/imagem_01.jpg);
+    }
+    
+    .foto:nth-child(3) {
+        background-image: url(../imagens/fotos/imagem_01.jpg);
     }
 
 
