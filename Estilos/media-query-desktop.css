@@ -288,82 +288,52 @@
         font-weight: normal;
     }
 
-    .artigos {
-        background-color: #e0e0de; /* Cor de fundo da seção */
-        text-align: center; /* Centraliza o texto */
-        padding: 20px; /* Espaçamento interno */
-        display: flex; /* Usa flexbox para layout */
-        justify-content: space-around; /* Espaça os itens uniformemente */
-        flex-wrap: wrap; /* Permite quebra de linha para itens */
-    }
-    
-    .artigo {
-        text-align: center; /* Centraliza o texto no bloco */
-        flex: 1 1 30%; /* Flex-grow, flex-shrink, largura base */
-        margin: 10px; /* Espaçamento entre os blocos */
-        background-color: transparent; /* Fundo transparente */
-    }
-    
-    .artigo img {
-        max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do contêiner */
-        height: auto; /* Mantém a proporção da imagem */
-    }
-    
-    .artigo h2 {
-        margin-top: 100px; /* Espaçamento acima do texto */
-        font-size: 16px; /* Tamanho da fonte */
-        color: #ff0000; /* Cor do texto */
-    }
+ 
 
+    
+   
 
     .artigo2{
         background-color:#e0e0de;
-        padding-top: 60px;
-        padding-bottom: 350px;
+        padding-top: 80px;
+        padding-bottom: 100px;
         margin-left: 80px;
-        margin-bottom: 120px;
         margin-right: 80px;
-        
-    }
-
-
-   .artigo2 {
         display: flex;
         justify-content: center; /* Centraliza os itens */
         flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha se não couberem */
-        padding: 20px;
+         
     }
+
     
     .foto {
         margin:50px; /* Margem menor para reduzir o espaço entre os itens */
         text-align: center;
-        width: 350px; /* Largura fixa */
-        height: 350px; /* Altura fixa */
+        width: 400px; /* Largura fixa */
+        height: 260px; /* Altura fixa */
         background-size: cover; /* Cobre todo o espaço do div */
         background-position: center; /* Centraliza a imagem no div */
     }
 
-    .artigo2.foto > h2{
-        color: #1c1018;
+  
+    .caption {
         font-family: "BIZ UDPMincho",'Courier New', Courier, monospace;
-        font-size: 0.8em;
-        font-weight: normal;
+        margin-top: 280px;
+        font-size: 1.4em;
         font-style: italic;
-        padding-top: 20px;
-        border-top: 1px solid #1c1018;
-        margin-top: 10px;
+        color:#1c1018;
     }
     
     .foto:nth-child(1) {
-        background-image: url(../imagens/fotos/imagem_01.jpg);
+        background-image: url(../imagens/fotos/art_1.jpg);
     }
     
     .foto:nth-child(2) {
-        background-image: url(../imagens/fotos/imagem_01.jpg);
+        background-image: url(../imagens/fotos/art_2.jpg);
     }
     
     .foto:nth-child(3) {
-        background-image: url(../imagens/fotos/imagem_01.jpg);
+        background-image: url(../imagens/fotos/art_3.jpg);
     }
 
 
