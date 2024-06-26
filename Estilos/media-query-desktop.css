@@ -289,7 +289,7 @@
     }
 
     .artigos2 {
-        background-color: yellow;
+        background-color: #e0e0de;
         padding-top: 100px;
         padding-bottom: 100px;
         display: flex; /* Usa Flexbox para alinhar os itens em linha */
@@ -297,30 +297,52 @@
         margin-left: 80px;
         margin-right: 80px;
     }
-
-    .container2{
+    
+    .title {
+        font-size: 2em;
+        color: red;
+        margin-bottom: 20px; /* Espaço abaixo do título */
+        border-bottom: 2px solid black; /* Adiciona uma borda inferior */
+        text-align: center; /* Centraliza o título */
+    }
+    .container2 {
         background-color: whitesmoke;
-        padding: 20px;
+        padding-top: 25px;
+        padding-left: 35px;
+        padding-right: 35px;
+        padding-bottom: 180px;
         display: flex;
         justify-content: center;
-        gap: 20px;
+        gap: 40px;
+        text-align: center; /* Mova esta regra aqui */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma sombra leve */
     }
-
-    .container2{
-        text-align: center;
-    }
-
-    .foto1 {
-        background-image: url(imagens/foto5.jpg);
+    
+    .foto1, .foto2, .foto3 {
         background-size: cover;
         background-position: center;
-        width: 200px;
+        width: 330px;
         height: 200px;
         display: block; /* Garante que a div é um bloco */
     }
     
-    h2 {
+    .foto1 {
+        background-image: url('../imagens/fotos/art_2.jpg');
+    }
+    
+    .foto2 {
+        background-image: url('../imagens/fotos/art_3.jpg');
+    }
+    
+    .foto3 {
+        background-image: url('../imagens/fotos/art_1.jpg'); /* Substitua pelo caminho correto da imagem */
+    }
+    
+    p.caption {
         color: red;
         font-size: 1em;
         margin-top: 10px;
+        border-top: 1px solid black; /* Adiciona uma linha preta acima do texto */
+        padding-top: 10px; /* Espaço entre a linha e o texto */
     }
+    
