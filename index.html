@@ -20,7 +20,7 @@
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#tratamentos">Tratamentos</a></li>
                 <li><a href="#artigos">Artigos</a></li>
-                <li><a href="#contato">Contato</a></li>
+                <li><a href="#contato" onclick="abrirContato(event)">Contato</a></li>
             </ul>
         </menu>
     </header>
@@ -99,7 +99,22 @@
             </div>
         </div>
     </section>
-    
+
+    <div id="contatoModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="fecharContato()">&times;</span>
+            <h1>Contato</h1>
+            <form action="mailto:seuemail@dominio.com" method="post" enctype="text/plain">
+                <label for="modalNome">Nome:</label>
+                <input type="text" id="modalNome" name="nome" required>
+                <label for="modalTelefone">Telefone:</label>
+                <input type="tel" id="modalTelefone" name="telefone" required>
+                <label for="modalMensagem">Mensagem:</label>
+                <textarea id="modalMensagem" name="mensagem" rows="4" required></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+    </div>
 
     <footer>
         <div class="icones">
@@ -130,6 +145,19 @@
             } else {
                 menuItens.style.display = 'block';
             }
+        }
+
+        function abrirContato(event) {
+            event.preventDefault();
+            if (window.innerWidth < 769) {
+                document.getElementById('contatoModal').style.display = 'block';
+            } else {
+                window.location.href = '#contato';
+            }
+        }
+
+        function fecharContato() {
+            document.getElementById('contatoModal').style.display = 'none';
         }
 
         window.onload = mudouTamanho;
