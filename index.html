@@ -5,49 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daiana Berlitz</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
-      
     <link rel="shortcut icon" href="imagens/logos/favicon-32x32.png" type="image/x-icon">
-   
     <link rel="stylesheet" href="Estilos/style.css" media="all">
-   
     <link rel="stylesheet" href="Estilos/media-query-desktop.css" media="screen and (min-width: 993px)">
-   
     <link rel="stylesheet" href="Estilos/media-query-print.css" media="print">
-
-       
-    
 </head>
 <body onresize="mudouTamanho()">
     <header>
         <img src="imagens/logos/LogoDaiana.png" alt="Logo do menu" class="logo">
-
         <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
-
         <menu id="menuItens">
             <ul>
                 <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li><a href="#">Tratamentos</a></li>
-                <li><a href="#">Artigos</a></li>
-                <li><a href="#">Contato</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#tratamentos">Tratamentos</a></li>
+                <li><a href="#artigos">Artigos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </menu>
     </header>
 
     <main>
         <section class="container1">
-            <div class="imagem1">
-            </div>
-           
+            <div class="imagem1"></div>
             <div class="texto1">
-                <h1>                  
-                    "A psicologia é a cura através do poder transformador do amor."<br></h1>
+                <h1>"A psicologia é a cura através do poder transformador do amor."<br></h1>
                 <p>- Carl Gustav Jung -</p>
             </div>     
         </section>
     </main>
 
-    <article class="artigo1">
+    <article id="sobre" class="artigo1">
         <p>Sobre</p>
         <h1>Daiana Berlitz</h1>
         <p class="descricao">
@@ -56,92 +44,88 @@
     </article>
 
     <section class="daiana">
-                <img src="imagens/fotos/Daiana.png" alt="">
+        <img src="imagens/fotos/Daiana.png" alt="Foto de Daiana Berlitz">
     </section>
 
-    <section class="secoes">
+    <section id="tratamentos" class="secoes">
         <div class="div1">
-           <h1>Como ocorrem as sessões?</h1>
-            <p>
-                As sessões podem ser semanais ou espaçadas conforme necessário, dependendo dos objetivos e da fase da psicoterapia do paciente. Cada sessão dura cerca de 50 minutos e pode ser feita pessoalmente ou online.
-            </p>
+            <h1>Como ocorrem as sessões?</h1>
+            <p>As sessões podem ser semanais ou espaçadas conforme necessário, dependendo dos objetivos e da fase da psicoterapia do paciente. Cada sessão dura cerca de 50 minutos e pode ser feita pessoalmente ou online.</p>
         </div>
-
         <div class="div2">
             <h1>Quando buscar psicoterapia?</h1>
-            <p>
-                A psicoterapia é procurada para lidar com estresse, problemas de relacionamento, dúvidas sobre a vida, pensamentos negativos e dificuldades para dormir. Além disso, também auxilia no desenvolvimento pessoal, alcance de metas e autoconhecimento
-            </p>
+            <p>A psicoterapia é procurada para lidar com estresse, problemas de relacionamento, dúvidas sobre a vida, pensamentos negativos e dificuldades para dormir. Além disso, também auxilia no desenvolvimento pessoal, alcance de metas e autoconhecimento.</p>
         </div>
-
         <div class="div3">
             <h1>As sessões online?</h1>
-            <p>
-                As sessões online geralmente são realizadas através da plataforma Google Meet, garantindo a segurança e sigilo dos dados. O link é enviado via WhatsApp momentos antes da sessão. O paciente deve estar em um ambiente reservado e com boa conexão à internet durante a sessão.
-            </p>
+            <p>As sessões online geralmente são realizadas através da plataforma Google Meet, garantindo a segurança e sigilo dos dados. O link é enviado via WhatsApp momentos antes da sessão. O paciente deve estar em um ambiente reservado e com boa conexão à internet durante a sessão.</p>
         </div>
     </section>
 
-    
-
-    <section class="artigos2">
-        
-            <h1 class="title">Artigos </h1>
-      
+    <section id="artigos" class="artigos2">
+        <h1 class="title">Artigos</h1>
         <div class="container2">
             <div class="foto_container">
                 <div class="foto1"></div>
                 <p class="caption">10 formas de desestressar</p>
             </div>
-    
             <div class="foto_container">
                 <div class="foto2"></div> 
-                <p class="caption">1stressar</p>
+                <p class="caption">Como lidar com a ansiedade</p>
             </div>
-    
             <div class="foto_container">
                 <div class="foto3"></div>
-                <p class="caption">10 formas de desestressar</p>
+                <p class="caption">A importância da terapia</p>
             </div>     
         </div> 
     </section>
+
+    <section id="contato" class="contato">
+        <h1 class="title">Contato</h1>
+        <div class="contato-container">
+            <div class="formulario">
+                <form action="mailto:seuemail@dominio.com" method="post" enctype="text/plain">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                    <label for="telefone">Telefone:</label>
+                    <input type="tel" id="telefone" name="telefone" required>
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+            <div class="texto-contato">
+                <p>Escreva seu texto aqui. Pode ser uma breve introdução sobre como entrar em contato, horário de atendimento, ou qualquer outra informação relevante.</p>
+            </div>
+        </div>
+    </section>
     
-
-   
-
 
     <footer>
         <div class="icones">
             <img src="imagens/icones/insta.png" alt="Ícone do Instagram">
-            <img src="imagens/icones/face.png" alt="Ícone do Facebock">
-            
+            <img src="imagens/icones/face.png" alt="Ícone do Facebook">
         </div>
         <div class="text_rodape">
             <h1>Daiana Berlitz</h1>
             <h2>CRP 07/28342</h2>
-            <p>
-                Psicóloga Clínica <br>
-                Terapia Cognitivo-Comportamental e <br>
-                Terapia do Esquema <br>
-                Especialista em Psicologia Positiva
-            </p>
+            <p>Psicóloga Clínica <br> Terapia Cognitivo-Comportamental e <br> Terapia do Esquema <br> Especialista em Psicologia Positiva</p>
         </div>
-        
     </footer>
 
     <script>
         function mudouTamanho() {
             var menuItens = document.getElementById('menuItens');
             if (window.innerWidth >= 769) {
-                menuItens.style.display  = 'block';
-             } else {
-                menuItens.style.display  = 'none';
+                menuItens.style.display = 'block';
+            } else {
+                menuItens.style.display = 'none';
             }
         }
-    
-        function clickMenu(){
+
+        function clickMenu() {
             var menuItens = document.getElementById('menuItens');
-            if (menuItens.style.display == 'block'){
+            if (menuItens.style.display == 'block') {
                 menuItens.style.display = 'none';
             } else {
                 menuItens.style.display = 'block';
@@ -150,8 +134,5 @@
 
         window.onload = mudouTamanho;
     </script>
-
-  
-
 </body>
 </html>
